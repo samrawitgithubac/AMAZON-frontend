@@ -1,0 +1,90 @@
+
+.Auth_logo{
+  width: 25%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.Auth_logo img{
+  width: 28%;
+margin-left:33%;
+  
+
+}
+
+.Auth_outer_wrapper{
+  width: 25%;
+  margin: 0 auto;
+  /* background-color: aqua; */
+ 
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  padding: 10px;
+}
+.Auth_inner_wrapper{
+  margin: 5%;
+} 
+.Auth_inner_wrapper h2{
+  margin: 20px 0;
+}
+.Auth_inner_wrapper form{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+.Auth_inner_wrapper input{
+   width: 90%;
+   
+    padding: 3% 0;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+   
+
+}
+.Auth_inner_wrapper form input:focus{
+  outline:2px solid skyblue;
+}
+.Auth_inner_wrapper button{
+  background-color: #FFD814;
+  text-align: center;
+  padding: 2% 8%;
+  width: 90%;
+  border-radius: 5px;
+border: none;
+margin: 20px 0;
+cursor: pointer;
+}
+.Auth_inner_wrapper button:hover{
+  background-color: var(--primary-shade);
+}
+.Auth_inner_wrapper p {
+  font-size: 14px;
+}
+.Auth_inner_wrapper .register{
+
+cursor: pointer;
+background-color: #DDDDDD;
+}
+
+.Auth_inner_wrapper .register:hover{
+  background-color: rgb(171, 168, 168);
+}
+@media (max-width:550px){
+.Auth_outer_wrapper{
+  width:70%;
+}
+.Auth_logo img{
+  width:50%
+}
+.Auth_logo{
+  width: 50%;
+}
+}
+@media (max-width:768px){
+  .Auth_outer_wrapper{
+  width:45%;
+}
+}
